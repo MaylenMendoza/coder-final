@@ -1,0 +1,42 @@
+@import "../variables/variables";
+@import "./scss/sass2/extend";
+@import "./scss/sass2/mixins";
+
+galeria{
+    @extend .botones;
+    @extend .contenedor;
+    @extend .footer;
+    @extend .iconos;
+}
+
+.img-galeria{
+    width: 100%;
+}
+
+.fila{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columns{
+    flex: 25%;
+    padding: 5px;
+}
+
+.columns img{
+    margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .columns{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 368px) {
+    .columns{
+        flex: 100%;
+    }
+}

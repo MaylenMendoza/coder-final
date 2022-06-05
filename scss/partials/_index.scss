@@ -1,0 +1,9 @@
+@import "../variables/variables";
+@import "./scss/sass2/extend";
+@import "./scss/sass2/mixins";
+
+index{
+    @extend .botones;
+    @extend .footer;
+    @extend .iconos;
+}

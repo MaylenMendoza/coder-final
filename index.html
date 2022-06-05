@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--APLICO SEO-->
+  <meta name="description"
+    content="empanadas 100% maiz y carimañolas 100% de yuca (mandioca) rellenas con carne, pollo o queso">
+  <meta name="keywords" content="comida colombiana">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <title>Los Sabores de Montería</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!--APLICO EL MENU DE NAVEGACION Y LOGO CON BOOTSTRAP-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-info navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="./img/sombrero-compressed.jpg" alt="imagen-de-un-sombrero" width="40" height="34" class="d-inline-block align-text-top">
+          Los Sabores de Montería
+        </a>
+      </div>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand botones" href="index.html">Home</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active botones" aria-current="page" href="pages/galeria.html">Galery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active botones" href="pages/productos.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active botones" href="pages/contacto.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active botones" href="pages/nosotros.html">About us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--AQUI FINALIZA EL MENU DE NAVEGACION-->
+
+  <!--AQUI COMIENZA EL CARRUSEL DE IMAGENES CON BOOTSTRAP-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="./img/carimañola1-compressed.jpg" class="d-block w-100 img-fluid" alt="imagen-de-comida-carimañola">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="./img/hallacas-rellenas-compressed.jpg" class="d-block w-100 img-fluid" alt="imagen-de-comida-hallaca">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="./img/empanadas-fritas-compressed.jpg" class="d-block w-100 img-fluid" alt="imagen-de-comida-empanada">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="./img/empanadas-compressed.jpg" class="d-block w-100 img-fluid" alt="imagen-de-comida-empanada2">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--AQUI FINALIZA EL CARRUSEL DE IMAGENES-->
+
+  <!--AQUI COMIENZA UNA SECCION QUE HABLA DEL CONTENIDO-->
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Comida Típica de Colombiana<span class="text-primary"> De Montería para Argentina</span></h1>
+    <p class="p-3 fs-4"><span class="text-primary">Los Sabores de Montería</span> Es un Emprendimiento pensado en la gente Colombiana y Venezolana que vive en Buenos Aires y extraña la comida típica de su país, empezó con el sueño de dos hermanas extranjeras que un día se despertaron extrañando su región y algunas comidas, así como ellas anhelaban tener algo de su país, también pensaron en las miles de personas que encuentran en la misma situación y de allí nació este emprendimiento.</p>
+  </section>
+  <!--AQUI FINALIZA LA SECCION QUE HABLA DEL CONTENIDO-->
+
+  <!--ESTE ES EL PIE DE LA PAGINA Y LOS ICONOS APLICADO CON BOOTSTRAP-->
+  <footer class="w-100 d-flex aling-items justify-content-center flex-wrap footer">
+    <p class="fs-5 px-3 pt-3 copy">LSDM &copy; Todos Los Derechos Reservados 2022</p>
+    <div  class="iconos" id="iconos">
+      <a href="#"></a><i class="bi bi-facebook"></i>
+      <a href="#"></a><i class="bi bi-whatsapp"></i>
+      <a href="#"></a><i class="bi bi-instagram"></i>
+      <a href="#"></a><i class="bi bi-youtube"></i>
+      <a href="#"></a><i class="bi bi-twitter"></i>
+    </div>
+  </footer>
+  <!--FINALIZA FOOTER-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

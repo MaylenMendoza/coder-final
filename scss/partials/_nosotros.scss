@@ -1,0 +1,20 @@
+@import "../variables/variables";
+@import "./scss/sass2/extend";
+@import "./scss/sass2/mixins";
+
+nosotros{
+    @extend .botones;
+    @extend .footer;
+    @extend .iconos;
+}
+
+.nosotros{
+    background: $color6;
+}
+
+.titulo-nosotros{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: $color3;
+}

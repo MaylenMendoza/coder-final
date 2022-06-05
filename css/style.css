@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contenedor, galeria, productos {
+  background-color: burlywood; }
+
+.botones:hover, contacto:hover, galeria:hover, index:hover, nosotros:hover, productos:hover {
+  background: green; }
+
+.botones-g:hover, productos:hover {
+  background: green; }
+
+.botones-g, productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 75%;
+  font-family: verdana;
+  font-size: 1em;
+  margin: 30px; }
+
+.footer, contacto, galeria, index, nosotros, productos {
+  text-align: center;
+  margin-top: 30px; }
+  .footer p, contacto p, galeria p, index p, nosotros p, productos p {
+    color: gray; }
+
+.iconos, contacto, galeria, index, nosotros, productos {
+  color: blue; }
+
+.body {
+  font-family: verdana;
+  background-color: antiquewhite; }
+
+.titulo {
+  text-align: center; }
+  .titulo h1 {
+    color: blueviolet;
+    margin-top: 30px; }
+  .titulo p {
+    font-family: cursive;
+    font-size: large; }
+
+.formulario {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.4);
+  position: relative; }
+
+.formulario-titulo {
+  text-align: center;
+  margin-top: 0;
+  color: blueviolet; }
+
+.formulario-input, .formulario-label,
+.formulario-submit {
+  display: block;
+  width: 100%;
+  font-size: 1.5em; }
+
+.formulario-input {
+  padding: 20px;
+  background: rgba(219, 117, 117, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px; }
+
+.formulario-label {
+  padding-left: 15px;
+  position: absolute;
+  margin-top: -90px;
+  z-index: 20; }
+
+.formulario-submit {
+  margin-top: 20px;
+  background: rgba(255, 0, 0, 0.31);
+  color: black; }
+
+.formulario-submit:hover {
+  background: green; }
+
+.contenedor, galeria, productos {
+  background-color: burlywood; }
+
+.botones:hover, contacto:hover, galeria:hover, index:hover, nosotros:hover, productos:hover {
+  background: green; }
+
+.botones-g:hover, productos:hover {
+  background: green; }
+
+.botones-g, productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 75%;
+  font-family: verdana;
+  font-size: 1em;
+  margin: 30px; }
+
+.footer, contacto, galeria, index, nosotros, productos {
+  text-align: center;
+  margin-top: 30px; }
+  .footer p, contacto p, galeria p, index p, nosotros p, productos p {
+    color: gray; }
+
+.iconos, contacto, galeria, index, nosotros, productos {
+  color: blue; }
+
+.img-galeria {
+  width: 100%; }
+
+.fila {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap; }
+
+.columns {
+  flex: 25%;
+  padding: 5px; }
+
+.columns img {
+  margin-top: 10px; }
+
+@media (max-width: 768px) {
+  .columns {
+    flex: 50%; } }
+
+@media (max-width: 368px) {
+  .columns {
+    flex: 100%; } }
+
+.contenedor, galeria, productos {
+  background-color: burlywood; }
+
+.botones:hover, contacto:hover, galeria:hover, index:hover, nosotros:hover, productos:hover {
+  background: green; }
+
+.botones-g:hover, productos:hover {
+  background: green; }
+
+.botones-g, productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 75%;
+  font-family: verdana;
+  font-size: 1em;
+  margin: 30px; }
+
+.footer, contacto, galeria, index, nosotros, productos {
+  text-align: center;
+  margin-top: 30px; }
+  .footer p, contacto p, galeria p, index p, nosotros p, productos p {
+    color: gray; }
+
+.iconos, contacto, galeria, index, nosotros, productos {
+  color: blue; }
+
+.contenedor, galeria, productos {
+  background-color: burlywood; }
+
+.botones:hover, contacto:hover, galeria:hover, index:hover, nosotros:hover, productos:hover {
+  background: green; }
+
+.botones-g:hover, productos:hover {
+  background: green; }
+
+.botones-g, productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 75%;
+  font-family: verdana;
+  font-size: 1em;
+  margin: 30px; }
+
+.footer, contacto, galeria, index, nosotros, productos {
+  text-align: center;
+  margin-top: 30px; }
+  .footer p, contacto p, galeria p, index p, nosotros p, productos p {
+    color: gray; }
+
+.iconos, contacto, galeria, index, nosotros, productos {
+  color: blue; }
+
+.nosotros {
+  background: beige; }
+
+.titulo-nosotros {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  color: blueviolet; }
+
+.contenedor, galeria, productos {
+  background-color: burlywood; }
+
+.botones:hover, contacto:hover, galeria:hover, index:hover, nosotros:hover, productos:hover {
+  background: green; }
+
+.botones-g:hover, productos:hover {
+  background: green; }
+
+.botones-g, productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 75%;
+  font-family: verdana;
+  font-size: 1em;
+  margin: 30px; }
+
+.footer, contacto, galeria, index, nosotros, productos {
+  text-align: center;
+  margin-top: 30px; }
+  .footer p, contacto p, galeria p, index p, nosotros p, productos p {
+    color: gray; }
+
+.iconos, contacto, galeria, index, nosotros, productos {
+  color: blue; }
+
+.contenedor, galeria, productos {
+  background-color: burlywood; }
+
+.botones:hover, contacto:hover, galeria:hover, index:hover, nosotros:hover, productos:hover {
+  background: green; }
+
+.botones-g:hover, productos:hover {
+  background: green; }
+
+.botones-g, productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 75%;
+  font-family: verdana;
+  font-size: 1em;
+  margin: 30px; }
+
+.footer, contacto, galeria, index, nosotros, productos {
+  text-align: center;
+  margin-top: 30px; }
+  .footer p, contacto p, galeria p, index p, nosotros p, productos p {
+    color: gray; }
+
+.iconos, contacto, galeria, index, nosotros, productos {
+  color: blue; }

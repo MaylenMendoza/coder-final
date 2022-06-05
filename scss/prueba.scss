@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "variables/variables";
+@import "partials/contacto";
+@import "partials/galeria";
+@import "partials/index";
+@import "partials/nosotros";
+@import "partials/productos";
+@import "sass2/extend";
+@import "sass2/mixins";
+
+
+

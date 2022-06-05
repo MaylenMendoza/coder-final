@@ -1,0 +1,36 @@
+@import "../variables/variables";
+
+.contenedor{
+    background-color: $color7 
+}
+
+.botones:hover{
+    background: $color2;
+}
+
+.botones-g:hover{
+    background: $color2;
+}
+
+.botones-g{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 75%;
+    font-family: $tipo-de-letras;
+    font-size: 1em;
+    margin: 30px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    p{
+        color:$color4;
+    }
+}
+
+.iconos{
+    color:$color5;
+}
